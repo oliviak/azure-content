@@ -81,7 +81,6 @@ Once your data is saved as a Hive table, in the next section we will connect to 
 		# Infer the schema and create a table		
 		hvacTable = hiveCtx.inferSchema(hvac)
 		hvacTable.registerAsTable("hvactemptable")
-		hvacTable.saveAsTable("hvac")
 
 5. Verify that the table was successfully created. In an empty cell in the notebook, copy the following snippet and press **SHIFT + ENTER**.
 
